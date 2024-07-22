@@ -1,0 +1,122 @@
+Certainly! Here are 5 general knowledge questions along with 4 options and their answers:
+
+**Question 1:**
+Which planet is known as the Red Planet?
+- A) Venus
+- B) Mars
+- C) Jupiter
+- D) Saturn
+
+**Answer:** B) Mars
+
+**Question 2:**
+Who wrote the famous play "Romeo and Juliet"?
+- A) William Shakespeare
+- B) Charles Dickens
+- C) Jane Austen
+- D) Leo Tolstoy
+
+**Answer:** A) William Shakespeare
+
+**Question 3:**
+Which country is known as the Land of the Rising Sun?
+- A) China
+- B) Japan
+- C) South Korea
+- D) Thailand
+
+**Answer:** B) Japan
+
+**Question 4:**
+What is the largest organ in the human body?
+- A) Brain
+- B) Heart
+- C) Liver
+- D) Skin
+
+**Answer:** D) Skin
+
+**Question 5:**
+Who painted the Mona Lisa?
+- A) Leonardo da Vinci
+- B) Pablo Picasso
+- C) Vincent van Gogh
+- D) Michelangelo
+
+**Answer:** A) Leonardo da Vinci
+
+Feel free to use these questions and answers for a quiz or trivia session!
+
+# # Text-based adventure game
+# current_scenario = "start"
+
+# while current_scenario != "end":
+#     if current_scenario == "start":
+#         print("You are at the start of your adventure.")
+#         print("You see two paths ahead. Which path will you take?")
+#         print("1. Path of the Warrior")
+#         print("2. Path of the Mage")
+#         print("3. Quit the game")
+        
+#         choice = input("Enter your choice (1-3): ")
+        
+#         if choice == '1':
+#             current_scenario = "warrior"
+#         elif choice == '2':
+#             current_scenario = "mage"
+#         elif choice == '3':
+#             print("Quitting the game. Goodbye!")
+#             break
+#         else:
+#             print("Invalid choice. Please enter a number from 1 to 3.")
+    
+#     elif current_scenario == "warrior":
+#         print("\nYou chose the Path of the Warrior.")
+#         print("You encounter a fierce dragon.")
+#         print("What will you do?")
+#         print("1. Fight the dragon")
+#         print("2. Flee from the dragon")
+        
+#         choice = input("Enter your choice (1-2): ")
+        
+#         if choice == '1':
+#             print("You bravely fight the dragon and emerge victorious!")
+#             current_scenario = "treasure"
+#         elif choice == '2':
+#             print("You run away from the dragon. Coward!")
+#             current_scenario = "start"
+#         else:
+#             print("Invalid choice. Please enter 1 or 2.")
+    
+#     elif current_scenario == "mage":
+#         print("\nYou chose the Path of the Mage.")
+#         print("You find a mysterious spellbook.")
+#         print("What will you do?")
+#         print("1. Study the spellbook")
+#         print("2. Ignore the spellbook and continue exploring")
+        
+#         choice = input("Enter your choice (1-2): ")
+        
+#         if choice == '1':
+#             print("You learn powerful spells from the spellbook!")
+#             current_scenario = "treasure"
+#         elif choice == '2':
+#             print("You continue exploring without touching the spellbook.")
+#             current_scenario = "treasure"
+#         else:
+#             print("Invalid choice. Please enter 1 or 2.")
+    
+#     elif current_scenario == "treasure":
+#         print("\nYou find a hidden treasure!")
+#         print("Congratulations! You completed your adventure.")
+#         current_scenario = "end"
+
+# print("Game over. Thanks for playing!")
+
+# text-based adventure game
+current_scenario="start"
+
+while current_scenario!="end":
+    if current_scenario=="start":
+        print("you are at the start of your adventure")
+        print("you see two paths ahead.which path ")
